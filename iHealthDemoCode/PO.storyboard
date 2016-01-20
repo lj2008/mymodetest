@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9527.1" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3a7-SD-p9i">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9525.1"/>
+    </dependencies>
+    <scenes>
+        <!--PO3-->
+        <scene sceneID="Mq0-ES-aNq">
+            <objects>
+                <viewController title="PO3" id="3a7-SD-p9i" customClass="PO3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="POY-IM-Ovu"/>
+                        <viewControllerLayoutGuide type="bottom" id="bej-4m-IOT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g29-59-9A9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11M-yK-msg">
+                                <rect key="frame" x="43" y="250" width="227" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandPO3SyncTimeResult"/>
+                                <connections>
+                                    <action selector="commandPO3SyncTimeResult:" destination="3a7-SD-p9i" eventType="touchUpInside" id="tkJ-Z0-H38"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrp-Vt-SbS">
+                                <rect key="frame" x="43" y="300" width="227" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandPO3HistoryDataCount"/>
+                                <connections>
+                                    <action selector="commandPO3HistoryDataCount:" destination="3a7-SD-p9i" eventType="touchUpInside" id="xuu-g7-ZIf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRG-Rq-L08">
+                                <rect key="frame" x="43" y="350" width="227" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandQueryBatteryInfo"/>
+                                <connections>
+                                    <action selector="commandQueryBatteryInfo:" destination="3a7-SD-p9i" eventType="touchUpInside" id="6Nc-Zl-qYW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brc-0h-unK">
+                                <rect key="frame" x="43" y="450" width="227" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandEndPO3DisConnect"/>
+                                <connections>
+                                    <action selector="commandEndPO3DisConnect:" destination="3a7-SD-p9i" eventType="touchUpInside" id="Ufb-p9-IVi"/>
+                                    <action selector="commandQueryBatteryInfo:" destination="3a7-SD-p9i" eventType="touchUpInside" id="hax-g2-D4N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zNk-cP-Ow6">
+                                <rect key="frame" x="43" y="400" width="227" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandResetDeviceResult"/>
+                                <connections>
+                                    <action selector="commandQueryBatteryInfo:" destination="3a7-SD-p9i" eventType="touchUpInside" id="fig-Ef-cDU"/>
+                                    <action selector="commandResetDeviceResult:" destination="3a7-SD-p9i" eventType="touchUpInside" id="AvV-ZD-Wzy"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3Ka-R7-yfi">
+                                <rect key="frame" x="47" y="82" width="227" height="128"/>
+                                <color key="backgroundColor" red="0.97415045970000003" green="1" blue="0.36017918760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="ResultData" destination="3Ka-R7-yfi" id="1kI-Jo-MNc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3C6-4P-1Xb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="51"/>
+        </scene>
+    </scenes>
+</document>

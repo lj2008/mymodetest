@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9iX-OA-eAx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--HS4-->
+        <scene sceneID="aHA-Ih-TMr">
+            <objects>
+                <viewController title="HS4" id="LfC-EZ-hIM" customClass="HS4ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UBW-rX-hxq"/>
+                        <viewControllerLayoutGuide type="bottom" id="mHP-bL-O4f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VsV-qj-CnN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ObA-Se-yeO">
+                                <rect key="frame" x="41" y="63" width="231" height="166"/>
+                                <color key="backgroundColor" red="0.97415045970000003" green="1" blue="0.36017918760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLM-ku-e9E">
+                                <rect key="frame" x="41" y="345" width="232" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandEndCurrentConnection"/>
+                                <connections>
+                                    <action selector="commandEndCurrentConnection:" destination="LfC-EZ-hIM" eventType="touchUpInside" id="hmI-rr-ylq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgC-bu-KBU">
+                                <rect key="frame" x="40" y="298" width="231" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandMeasureWeight"/>
+                                <connections>
+                                    <action selector="commandMeasureWeight:" destination="LfC-EZ-hIM" eventType="touchUpInside" id="dJF-gr-F7n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3L-uG-Aoa">
+                                <rect key="frame" x="40" y="251" width="231" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandTransferMemorryData"/>
+                                <connections>
+                                    <action selector="commandTransferMemorryData:" destination="LfC-EZ-hIM" eventType="touchUpInside" id="Zdd-9l-mwd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HS4" id="Ful-I2-wtz"/>
+                    <connections>
+                        <outlet property="ResultData" destination="ObA-Se-yeO" id="qgC-GC-weh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cXT-9P-PoJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="229"/>
+        </scene>
+        <!--HS5-->
+        <scene sceneID="kn6-2r-dDR">
+            <objects>
+                <viewController title="HS5" id="9iX-OA-eAx" customClass="HS5ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lhf-QO-fW4"/>
+                        <viewControllerLayoutGuide type="bottom" id="O9D-KS-oOh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="62a-6E-M4i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LKm-15-N7c">
+                                <rect key="frame" x="44" y="12" width="231" height="126"/>
+                                <color key="backgroundColor" red="0.97415045970000003" green="1" blue="0.36017918760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d46-7n-eFI">
+                                <rect key="frame" x="43" y="336" width="232" height="23"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandcreateUploadConnect"/>
+                                <connections>
+                                    <action selector="commandTurnOnBTConnect:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="wgv-Bx-y77"/>
+                                    <action selector="commandcreateUploadConnect:" destination="9iX-OA-eAx" eventType="touchUpInside" id="P44-j8-Vcj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRK-Mw-cx6">
+                                <rect key="frame" x="44" y="300" width="232" height="23"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandEndCurrentConnect"/>
+                                <connections>
+                                    <action selector="commandEndCurrentConnect:" destination="9iX-OA-eAx" eventType="touchUpInside" id="t7q-nb-hVy"/>
+                                    <action selector="commandTurnOnBTConnect:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="bCt-Hn-x8r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQB-Qe-hAd">
+                                <rect key="frame" x="44" y="266" width="232" height="23"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandCreateMeasure"/>
+                                <connections>
+                                    <action selector="commandCreateMeasure:" destination="9iX-OA-eAx" eventType="touchUpInside" id="f4x-wk-hkU"/>
+                                    <action selector="commandTurnOnBTConnect:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="zXl-55-sLJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2m-R8-Rex">
+                                <rect key="frame" x="43" y="155" width="231" height="23"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandCreateUserConnect"/>
+                                <connections>
+                                    <action selector="commandCreateUserConnect:" destination="9iX-OA-eAx" eventType="touchUpInside" id="xDD-zG-rMk"/>
+                                    <action selector="commandInitMeasureWeightID:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="EC9-Ym-LMx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Uu-jm-LF0">
+                                <rect key="frame" x="43" y="227" width="231" height="23"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandModifyUserPosition"/>
+                                <connections>
+                                    <action selector="commandModifyUserPosition:" destination="9iX-OA-eAx" eventType="touchUpInside" id="hCH-G3-Py0"/>
+                                    <action selector="commandTurnOffBTConnect:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="m6o-fb-5TD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aq6-kL-bgk">
+                                <rect key="frame" x="44" y="373" width="231" height="23"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandDelteUserID"/>
+                                <connections>
+                                    <action selector="commandDelteUserID:" destination="9iX-OA-eAx" eventType="touchUpInside" id="hZR-bn-Z8S"/>
+                                    <action selector="commandInitMeasureWeightID:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="QG0-Po-dPx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbh-oh-IjD">
+                                <rect key="frame" x="44" y="192" width="232" height="23"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandCreateUserPosition"/>
+                                <connections>
+                                    <action selector="commandCreateUserPosition:" destination="9iX-OA-eAx" eventType="touchUpInside" id="qoN-0e-ZLc"/>
+                                    <action selector="commandTurnOnBTConnect:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="Lr1-Jz-KJi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HS5" id="E4v-5c-MZ7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="ResultData" destination="LKm-15-N7c" id="s60-U9-xBi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ETZ-lH-hZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="979"/>
+        </scene>
+        <!--HS3-->
+        <scene sceneID="cNB-Kk-E8F">
+            <objects>
+                <viewController title="HS3" id="UOZ-9k-2uC" customClass="HS3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GOS-oN-3sQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ry0-Sr-Cle"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kYV-gm-A2t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ywy-yj-TdF">
+                                <rect key="frame" x="39" y="20" width="231" height="166"/>
+                                <color key="backgroundColor" red="0.97415045970000003" green="1" blue="0.36017918760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQw-id-pFJ">
+                                <rect key="frame" x="39" y="302" width="232" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandTurnOnBTConnect"/>
+                                <connections>
+                                    <action selector="commandTurnOnBTConnect:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="M7X-Gd-EOw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zz7-Ov-t2A">
+                                <rect key="frame" x="39" y="398" width="232" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandMeasureStableWeight"/>
+                                <connections>
+                                    <action selector="commandMeasureStableWeight:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="SJX-gC-O8z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FO9-v4-Oh3">
+                                <rect key="frame" x="39" y="207" width="231" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandInitMeasureWeightID"/>
+                                <connections>
+                                    <action selector="commandInitMeasureWeightID:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="rpc-WL-a5l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNc-QX-pKh">
+                                <rect key="frame" x="38" y="255" width="231" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandTurnOffBTConnect"/>
+                                <connections>
+                                    <action selector="commandTurnOffBTConnect:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="Ofa-af-OGf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCh-fs-p8y">
+                                <rect key="frame" x="39" y="349" width="232" height="30"/>
+                                <color key="backgroundColor" red="0.1533430922" green="0.85793257170000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="commandInitMeasureWeightID3"/>
+                                <connections>
+                                    <action selector="commandInitMeasureWeightID3:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="dTf-41-oPQ"/>
+                                    <action selector="commandInitMeasureWeightID:" destination="UOZ-9k-2uC" eventType="touchUpInside" id="Oie-At-b46"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HS3" id="LzM-Od-UYj"/>
+                    <connections>
+                        <outlet property="ResultData" destination="ywy-yj-TdF" id="cUf-wD-fdy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b3w-7K-f1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="-432"/>
+        </scene>
+        <!--HS TEST-->
+        <scene sceneID="Esm-By-5PU">
+            <objects>
+                <tabBarController title="HS TEST" id="nm9-b3-K9M" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="zPg-Ih-ivE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UOZ-9k-2uC" kind="relationship" relationship="viewControllers" id="o72-g0-9HA"/>
+                        <segue destination="LfC-EZ-hIM" kind="relationship" relationship="viewControllers" id="yZ3-Tn-Xd5"/>
+                        <segue destination="9iX-OA-eAx" kind="relationship" relationship="viewControllers" id="MfE-rU-FOK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lIp-ok-VPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-675" y="-101"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,24 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#define DLog
+
+#define SDKKey  @"2a8387e3f4e94407a3a767a72dfd52ea"
+#define SDKSecret  @"fd5e845c47944a818bc511fb7edb0a77"
+
+#define YourUserName @"he@12.com"
